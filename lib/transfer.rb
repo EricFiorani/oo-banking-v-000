@@ -10,4 +10,7 @@ class Transfer
     @amount = 50
   end
 
+  def valid?
+    sender.status == "open" && sender.balance > 50 ? true : false
+
 end
