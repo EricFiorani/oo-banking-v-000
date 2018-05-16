@@ -5,6 +5,7 @@ class BankAccount
   def initialize(name, balance = 1000)
     @name = name
     @account = account
+    @status = "open"
   end
 
 end
