@@ -12,5 +12,6 @@ class Transfer
 
   def valid?
     sender.valid? && reciever.valid? ? true : false
+  end
 
 end
