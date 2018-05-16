@@ -7,7 +7,7 @@ class BankAccount
     @name = name
     @account = account
     @status = "open"
-    @balance
+    @balance = 1000
   end
 
 end
