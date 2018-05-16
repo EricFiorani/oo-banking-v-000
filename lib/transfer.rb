@@ -3,5 +3,7 @@ class Transfer
   attr_accessor
 
   def initialize(transfer, sender, reciever)
+    @status = "pending"
   end
+  
 end
